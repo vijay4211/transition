@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* nornal width 100px hai but jab ham div per hover karenge to width 300px incress hona chahiye 2s time ke sath and wapis se width uske original width jo ki 100px hai uspar aani chahiye. */
+        div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: width 2s;
+        }
+        div:hover{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+<div></div>
+</body>
+</html>
